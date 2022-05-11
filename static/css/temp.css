@@ -1,0 +1,233 @@
+.main
+{
+    width: 520px;
+    background-color: rgba(246, 252, 253, 0.808);
+    float:right;text-align:left;
+    color:rgb(5, 34, 68);
+    padding:5px 0px 5px 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+form
+{
+    padding:20px;
+}
+
+.deco
+{
+    width:60%;
+    height:60px;
+}
+
+.name
+{
+    margin-left: 25px;
+    margin-top: 30px;
+    width:100px;
+    color:rgb(11, 0, 20);
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.left
+{
+    position: relative;
+    left: 125px;
+    top: -30px;
+    line-height:20px;
+    border-radius: 4px;
+    padding:0 22px;
+    font-size: 10px;
+    
+}
+
+.right
+{
+    position: relative;
+    left: 260px;
+    top: -53px;
+    line-height:20px;
+    border-radius: 4px;
+    padding:0 22px;
+    font-size: 10px;
+
+}
+
+.left_label
+{
+    position: relative;
+    color:rgb(11, 0, 20);
+    text-transform: capitalize;
+    font-size: 10px;
+    left: 130px;
+    top: -30px;
+}
+
+.right_label
+{
+    position: relative;
+    color:rgb(11, 0, 20);
+    text-transform: capitalize;
+    font-size: 10px;
+    left: 318px;
+    top: -55px;
+}
+
+.LH_label
+{
+    position: relative;
+    color:rgb(11, 0, 20);
+    text-transform: capitalize;
+    font-size: 10px;
+    left: 320px;
+    top: -50px;
+}
+.cc1
+{
+    position: relative;
+    left: 130px;
+    top: -33px;
+    line-height: 20px;
+    /*width: 70px;*/
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 10px;
+    color: #555;
+}
+
+.cc1_label
+{
+    position: relative;
+    color:rgb(11, 0, 20);
+    text-transform: capitalize;
+    font-size: 10px;
+    left: 133px;
+    top: -37px;
+}
+
+
+
+
+.cc2
+{
+    position: relative;
+    left: 280px;
+    top: -57px;
+    line-height: 20px;
+    
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 10px;
+    color: #555;
+}
+
+.cc2_label
+{
+    position: relative;
+    color:rgb(11, 0, 20);
+    text-transform: capitalize;
+    font-size: 10px;
+    left: 320px;
+    top: -60px;
+}
+
+.cc3
+{
+    position: relative;
+    left: 90px;
+    top: -33px;
+    line-height: 20px;
+    
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 10px;
+    color: #555;
+}
+
+.cc3_label
+{
+    position: relative;
+    color:rgb(11, 0, 20);
+    text-transform: capitalize;
+    font-size: 10px;
+    left: 130px;
+    top: -35px;
+}
+
+.cc4
+{
+    position: relative;
+    left: 267px;
+    top: -55px;
+    line-height: 20px;
+    
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 10px;
+    color: #555;
+}
+
+.cc4_label
+{
+    position: relative;
+    color:rgb(11, 0, 20);
+    text-transform: capitalize;
+    font-size: 10px;
+    left: 320px;
+    top: -58px;
+}
+
+#SR
+{
+    position: relative;
+    left: 130px;
+    top: -37px;
+    line-height:20px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 10px;
+}
+
+
+
+button
+{
+  background-color:#160652;
+  display: block;
+  margin:auto;
+  text-align: center;
+  border-radius: 12px;
+  border:2px solid #4a5704;
+  padding: 14px 110px;
+  outline:none;
+  color:rgb(241, 239, 252);
+  cursor:pointer;
+  transition:0.25px;
+  /*-webkit-box-flex: 1 1 auto;
+    -moz-box-flex:  1 1 auto;
+    -webkit-flex:  1 1 auto;
+    -ms-flex:  1 1 auto;
+    flex:  1 1 auto;*/
+}
+
+/*#pred_max,#pred_min
+{
+    display: inline-block;
+    margin-right: 4px;
+}*/
+
+/*.temp
+{
+    text-align: center;
+    color:ivory;
+}*/
+
+.wea{
+    display: block; overflow: auto; 
+   
+    text-align: center;
+    margin:230px;
+    margin-top: 140px;
+    margin-right:80px;
+    float:left;
+}

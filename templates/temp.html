@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Tempreture prediction</title>
+<link href="/static/css/temp.css" rel="stylesheet" media="all">
+
+</head>
+
+<body>
+    <style>
+        body{
+            background-image: url("/static/images/stars-in-the-night-sky.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+            font-family:sans-serif;
+            
+        }
+      </style>
+      <div class="main">
+        <form action="/predict">
+            <div class="deco">
+                <h2 class="name">Humadity:</h2>
+                <input class="left" type="text" name="Minimum_hum"><br>
+                <label class="left_label">Minimum</label>
+                <input class="right" type="text" name="Maximum_hum"><br>
+                <label class="right_label">Maximum</label>
+            </div>
+            <div class="deco">
+                <h2 class="name">Air tempreture:</h2>
+                <input class="left" type="text" name="Maximum_temp"><br>
+                <label class="left_label">Maximum</label>
+                <input class="right" type="text" name="Minimum_temp"><br>
+                <label class="right_label">Minimum</label>
+            </div>
+            <div class="deco">
+                <h2 class="name">WS & LHF:</h2>
+                <input class="left" type="text" name="wind speed"><br>
+                <label class="left_label">Wind speed</label>
+                <input class="right" type="text" name="latent Heat"><br>
+                <label class="LH_label">latent heat</label>
+            </div>
+            <div class="deco">
+                <h2 class="name">Cloud Cover:</h2>
+                <input class="cc1" type="text" name="cloud cover (0-5 h)"><br>
+                <label class="cc1_label">(0-5 h)</label>
+                <input class="cc2" type="text" name="cloud cover (6-11 h)"><br>
+                <label class="cc2_label">(6-11 h)</label>
+                <input class="cc3" type="text" name="cloud cover (12-17 h)"><br>
+                <label class="cc3_label">(12-17 h)</label>
+                <input class="cc4" type="text" name="cloud cover (18-23 h)"><br>
+                <label class="cc4_label">(18-23 h)</label>
+            </div>
+            <div class="deco">
+                <h2 class="name">Precipitation:</h2>
+                <input class="cc1" type="text" name="precipitation (0-5 h)"><br>
+                <label class="cc1_label">(0-5 h)</label>
+                <input class="cc2" type="text" name="precipitation(6-11 h)"><br>
+                <label class="cc2_label"> (6-11 h)</label>
+                <input class="cc3" type="text" name="precipitation (12-17 h)"><br>
+                <label class="cc3_label"> (12-17 h)</label>
+                <input class="cc4" type="text" name="precipitation (18-23 h)"><br>
+                <label class="cc4_label"> (18-23 h)</label>
+            </div>
+        <div class="deco">
+            <h2 class="name">Lat& lon:</h2>
+            <input class="left" type="text" name="lat"><br>
+            <label class="left_label">Latitude</label>
+            <input class="right" type="text" name="lon"><br>
+            <label class="right_label">Longitude</label>
+        </div>
+        <h2 class="name">Solar radiation:</h2>
+        <input id="SR" type="text" name="Solar radiation"><br>
+            <button type="submit" id='pred_min' action="predict.html">Predict</button>
+        </form>
+    </div>
+    
+    <div class="wea" >
+        <h1 style="color:rgb(244, 247, 250);">Weather prediction</h1>
+        <h4  style="color:rgb(253, 254, 255);">Minimum tempreture :  {{minimum_Prediction}}</h4><br>
+        <h4 style="color:rgb(249, 251, 253);">Maximum tempreture : {{maximum_Prediction}}</h4><br>
+    </div>
+</body>
+</html>
